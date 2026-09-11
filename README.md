@@ -4,7 +4,7 @@ A San Francisco–to–Big Sur companion built on the **same architecture as Rou
 
 Named stops, a drivable Leaflet map, hidden-gem scoring, trip saves, and a static GitHub Pages mirror so the map stays public if a live host is down.
 
-**58 stops** (second batch): SF food + views (including Mensho), Marin sunsets (Presidio / Mt. Tam), San Jose, Santa Cruz, 17-Mile Drive, Monterey, Carmel-by-the-Sea, and Big Sur.
+**84 stops** (third batch): SF food + views (including Mensho), Marin sunsets (Presidio / Mt. Tam), San Jose, Santa Cruz, 17-Mile Drive, Monterey, Carmel-by-the-Sea, and Big Sur.
 
 ## Public sites
 
