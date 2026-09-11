@@ -4,15 +4,19 @@ A San Francisco–to–Big Sur companion built on the **same architecture as Rou
 
 Named stops, a drivable Leaflet map, hidden-gem scoring, trip saves, and a static GitHub Pages mirror so the map stays public if a live host is down.
 
-**32 stops** in the first batch: SF food + views (including Mensho), Marin sunsets (Presidio / Mt. Tam), San Jose, Santa Cruz, 17-Mile Drive, Monterey, Carmel-by-the-Sea, and Big Sur.
+**58 stops** (second batch): SF food + views (including Mensho), Marin sunsets (Presidio / Mt. Tam), San Jose, Santa Cruz, 17-Mile Drive, Monterey, Carmel-by-the-Sea, and Big Sur.
 
 ## Public sites
 
 | Site | URL |
 |---|---|
+| **Custom domain** | [sf.route66drive.com](https://sf.route66drive.com) — CNAME `sf` on the Porkbun `route66drive.com` zone |
+| **Live app** | [visitbayarea.grok.me](https://visitbayarea.grok.me) |
 | **Map mirror** (no login, GitHub Pages) | [pruthvirajg.github.io/visitbayarea](https://pruthvirajg.github.io/visitbayarea/) |
 | Source | [github.com/pruthvirajg/visitbayarea](https://github.com/pruthvirajg/visitbayarea) |
 | Sister app (Route 66) | [route66drive.com](https://route66drive.com) |
+
+To attach **sf.route66drive.com**: Porkbun DNS `CNAME` host `sf` → `cname.vercel-dns.com` (full app) or `pruthvirajg.github.io` (static map), then add the hostname on the Grok/Vercel project or GitHub Pages. Do not point `sf` at `route66drive.com` itself.
 
 ## Architecture (same as Route 66)
 
