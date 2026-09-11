@@ -1,0 +1,8 @@
+{
+  "name": "visitbayarea",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "site:export": "node scripts/export-public-site.mjs"
+  }
+}

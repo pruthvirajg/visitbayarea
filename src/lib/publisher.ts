@@ -1,0 +1,20 @@
+/** App Store / Play Store identity. Legal owner is still PruthviRaj G. */
+export const PUBLISHER = {
+  developerName: "Pruthvi Studios",
+  legalName: "PruthviRaj G",
+  appName: "Visit Bay Area",
+  appSubtitle: "SF \u2194 Big Sur",
+  bundleId: "studio.pruthvi.visitbayarea",
+  scheme: "visitbayarea",
+  liveUrl: "https://pruthvirajg.github.io/visitbayarea/",
+  publicUrl: "https://pruthvirajg.github.io/visitbayarea/",
+  privacyPath: "/privacy",
+  supportPath: "/support",
+  issuesUrl: "https://github.com/pruthvirajg/visitbayarea/issues",
+  instagramHandle: "a_travelling_machine",
+  instagramUrl: "https://www.instagram.com/a_travelling_machine/",
+  category: "Travel",
+  themeColor: "#14161b",
+  cream: "#ede6d6",
+  neon: "#3db8a6",
+} as const;
