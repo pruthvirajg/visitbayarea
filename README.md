@@ -11,12 +11,15 @@ Named stops, a drivable Leaflet map, hidden-gem scoring, trip saves, and a stati
 | Site | URL |
 |---|---|
 | **Custom domain** | [sf.route66drive.com](https://sf.route66drive.com) — CNAME `sf` on the Porkbun `route66drive.com` zone |
+| **Custom domain** | [virangi.route66drive.com](https://virangi.route66drive.com) — CNAME `virangi` → `visitbayarea.grok.me` on the Porkbun `route66drive.com` zone |
 | **Live app** | [visitbayarea.grok.me](https://visitbayarea.grok.me) |
 | **Map mirror** (no login, GitHub Pages) | [pruthvirajg.github.io/visitbayarea](https://pruthvirajg.github.io/visitbayarea/) |
 | Source | [github.com/pruthvirajg/visitbayarea](https://github.com/pruthvirajg/visitbayarea) |
 | Sister app (Route 66) | [route66drive.com](https://route66drive.com) |
 
 To attach **sf.route66drive.com**: Porkbun DNS `CNAME` host `sf` → `cname.vercel-dns.com` (full app) or `pruthvirajg.github.io` (static map), then add the hostname on the Grok/Vercel project or GitHub Pages. Do not point `sf` at `route66drive.com` itself.
+
+To attach **virangi.route66drive.com**: Porkbun DNS `CNAME` host `virangi` → `visitbayarea.grok.me` (added). Grok Build's custom-domain step still needs the hostname added on its side before traffic is actually served.
 
 ## Architecture (same as Route 66)
 
